@@ -1,10 +1,10 @@
-from people import y
-from salary import x
+import people
+import salary
 from datetime import date
 
 d = date(2022, 10, 21)
 
-print(x, y, d)
+print(people.surname, salary.bonus, d)
 
 
 print(__name__)
